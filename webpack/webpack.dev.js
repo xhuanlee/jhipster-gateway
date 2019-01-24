@@ -44,6 +44,7 @@ module.exports = (options) => webpackMerge(commonConfig({ env: ENV }), {
     proxy: [{
       context: [
         '/uaa',
+        '/resource',
         /* jhipster-needle-add-entity-to-webpack - JHipster will add entity api paths here */
         '/api',
         '/management',
@@ -73,7 +74,7 @@ module.exports = (options) => webpackMerge(commonConfig({ env: ENV }), {
       host: 'localhost',
       port: 9000,
       proxy: {
-        target: 'http://localhost:9060'
+        target: 'http://localhost:9080'
       },
       socket: {
         clients: {

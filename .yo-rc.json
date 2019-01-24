@@ -2,7 +2,8 @@
   "generator-jhipster": {
     "promptValues": {
       "packageName": "com.jhipster.gateway",
-      "nativeLanguage": "zh-cn"
+      "nativeLanguage": "zh-cn",
+      "microservicePath": "../resource"
     },
     "jhipsterVersion": "5.7.2",
     "applicationType": "gateway",
